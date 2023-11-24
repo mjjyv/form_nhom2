@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.login{
+    width: 360px;
+    height: 800px;
+    flex-shrink: 0;
+    border: 1px solid #bbbbbb;
+}
+.signup{
+    width: 360px;
+    height: 800px;
+    flex-shrink: 0;
+    border: 1px solid #bbbbbb;
+}
+.form{
+    display: flex;
+    gap: 30px;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.head_label{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 122px 0 35px 0;
+}
+input{
+    width: 312px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: rgba(255, 255, 255, 0.08); 
+    padding: 0 5px;
+    outline: none;
+}
+.link{
+    display: flex;
+    margin: -15px 0 20px 0 ;
+}
+.line{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.choice-label{
+    margin: 0 6px;
+}
+.choice{
+    display: flex; 
+    flex-direction: row; 
+    margin-bottom: 20px;
+}
+.choice:before, .choice:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 139px;
+    height: 1px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 28px; 
+}
+.link-pri{
+    color: #2F89FC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-decoration: none;
+    margin-left: 5px;
+}
+.input{
+    position: relative;
+}
+.eye{
+    position: absolute;
+    right: 20px;
+    top: 90px;
+}
+.eye-signup{
+    position: absolute;
+    right: 20px;
+    top: 240px;
+}
+.button-login{
+    width: 312px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #0E64D2;   
+    
+    border: none;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+.button-login-fb{
+    border-radius: 10px;
+    background: #1877F2;  
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.button-login-fb img{
+    margin-right: 54px;
+}
+.button-login-gg img{
+    margin-right: 59px;
+}
+.button-login-gg{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: rgba(255, 255, 255, 0.02);
+
+    color: rgba(0, 0, 0, 0.60);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-pri{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 15px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    left: 24px;
+    gap: 5px;
+}
+.user p{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;    
+}
+form{
+    position: relative;
+}
+
+.head_label-signup{
+    margin-bottom: 46px;
+}
+.button-pri-signup{
+    margin-bottom: 25px;
+}
